@@ -9,6 +9,7 @@ body {
 
 /* **********main****************/
 main {
+    margin-top: 20px;
     padding-left: 10%;
     width: 80%;
 }
@@ -97,69 +98,52 @@ Match details*******************/
     font-weight: 600;
 }
 
-.blog {
+.upcoming {
     background-color: red;
 }
 
-.blog p a {
+.upcoming p a {
     color: white;
 }
 
-/***********************match-details**************************/
+
+/************************************************************
+**********************single match**************************/
+.match-times {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+}
+
+
 .match-details {
     display: flex;
 }
 
-/****************************************
-transfer lives****************************/
-
-.transfer-lives {
+.single-match {
     margin-left: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    row-gap: 20px;
-}
-
-.single-live {
+    height: 220px;
     width: 310px;
-    height: 360px;
     box-shadow: 0px 0px 40px whitesmoke;
 }
 
-.single-live:hover {
-    border: 3px solid blue;
+.inner-div {
+    margin: 20PX;
+    padding-left: 10PX;
 }
 
-.live-image img {
-    width: 310px;
-    height: 200px;
+.inner-banner {
+    display: flex;
+    gap: 15px;
 }
 
-.live-info {
-    margin-left: 10px;
-}
-
-.transfer p {
-    height: 25px;
-    border-radius: 3px;
+.match-time {
     text-align: center;
-    width: 70px;
-    border: 1px solid black;
 }
 
-.icon {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
 
-.icon-1 i {
-    width: 20px;
-}
 
-.icon-2 i {
-    width: 20px;
-}
+
 
 /*******************************************************
 ***************************footer************************/
