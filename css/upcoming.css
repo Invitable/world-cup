@@ -127,6 +127,11 @@ Match details*******************/
     box-shadow: 0px 0px 40px whitesmoke;
 }
 
+.single-match:hover {
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
 .inner-div {
     margin: 20PX;
     padding-left: 10PX;
@@ -174,3 +179,65 @@ Match details*******************/
     color: white;
     padding-left: 20px;
 }
+
+/*********************************************************
+*********************media query**************************/
+/* @media only screen and (max-width: 1000px) { */
+
+
+.banner {
+    width: 80%;
+    margin-left: 10%;
+    background-color: navy;
+    height: 500px;
+}
+
+.banner-text {
+    margin-left: 20px;
+    margin-top: 60px;
+    height: 400px;
+    width: 350px;
+}
+
+.banner-text h1 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.banner-text p {
+    height: 55px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.banner-pic img {
+    margin-top: 30px;
+    width: 400px;
+    height: 470px;
+
+}
+
+.match-details {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.all-infos {
+    background-color: black;
+    height: 100px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+.all-infos .infos {
+    /* padding-top: 10px; */
+    width: 80%;
+    display: flex;
+}
+
+.info p {
+    text-align: center;
+}
+
+/* } */
