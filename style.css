@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,500;1,500&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* **********main****************/
+main {
+    padding-left: 10%;
+    width: 80%;
+}
+
+/*----------------------------------------------------
+ ------------design part of banner ------------------*/
+.banner {
+    display: flex;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    height: 630px;
+    gap: 80px;
+    margin-bottom: 60px;
+}
+
+.banner-text {
+    margin-left: 40px;
+    margin-top: 100px;
+    height: 500px;
+    width: 500px;
+}
+
+.banner-text h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.live-button {
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 50;
+    background-color: red;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+.banner-pic {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.banner-pic img {
+    margin-top: 50px;
+    margin-bottom: 0;
+    width: 540px;
+    height: 580px;
+    background-repeat: no-repeat;
+}
+
+/*******************************
+Match details*******************/
+
+.all-infos {
+    background-color: black;
+    height: 240px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.all-infos .infos {
+    padding-top: 10px;
+    width: 210px;
+    margin: 20px;
+}
+
+.info {
+    height: 40px;
+    width: 190px;
+    margin: 20px 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.info p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.info p a {
+    text-decoration: none;
+    color: black;
+    size: 20px;
+    font-weight: 600;
+}
+
+.blog {
+    background-color: red;
+}
+
+.blog p a {
+    color: white;
+}
+
+/***********************match-details**************************/
+.match-details {
+    display: flex;
+}
+
+/****************************************
+transfer lives****************************/
+
+.transfer-lives {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    row-gap: 20px;
+}
+
+.single-live {
+    width: 310px;
+    height: 360px;
+    box-shadow: 0px 0px 40px whitesmoke;
+}
+
+.single-live:hover {
+    border: 3px solid blue;
+}
+
+.live-image img {
+    width: 310px;
+    height: 200px;
+}
+
+.live-info {
+    margin-left: 10px;
+}
+
+.transfer p {
+    height: 25px;
+    border-radius: 3px;
+    text-align: center;
+    width: 70px;
+    border: 1px solid black;
+}
+
+.icon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.icon-1 i {
+    width: 20px;
+}
+
+.icon-2 i {
+    width: 20px;
+}
+
+/*******************************************************
+***************************footer************************/
+
+.footers {
+    margin-top: 50px;
+    height: 200px;
+    background-color: black;
+}
+
+.goal {
+
+    text-align: center;
+}
+
+.goal p {
+    padding-top: 30px;
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.about {
+    text-align: center;
+}
+
+.about span {
+    color: white;
+    padding-left: 20px;
+}
